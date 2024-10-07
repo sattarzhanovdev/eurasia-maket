@@ -1,0 +1,15 @@
+.blocks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  img{
+    width: 170px;
+    &:nth-child(2){
+      width: 500px;
+      transform: rotate(-22deg);
+      margin-left: -40px;
+    }
+  }
+}
+

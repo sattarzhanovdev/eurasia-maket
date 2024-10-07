@@ -1,0 +1,32 @@
+.entrance{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: hidden;
+  div{
+    margin-left: 50px;
+    div{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0;
+      button{
+        width: 100px;
+        height: 60px;
+        background: red;
+        color: white;
+        border-radius: 6px;
+        border: 0;
+      }
+    }
+  }
+  img{
+    width: 300px;
+    &.block{
+      width: 600px;
+      margin-left: -120px;
+      transform: rotate(90deg);
+    }
+  }
+}
