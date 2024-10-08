@@ -13,7 +13,7 @@ const Main = () => {
       <div>
         <div>
           <img src={logo} alt="" />
-          <h1>ЖК Эверест</h1>
+          <h1>ЖК "Эверест"</h1>
         </div>
 
         <button 
