@@ -25,6 +25,13 @@ const Main = () => {
         </button>
         <button 
           onClick={() => {
+            API.putValue('_')
+          }}
+        >
+          Выключить дом
+        </button>
+        <button 
+          onClick={() => {
             API.putValue('D')
           }}
         >
